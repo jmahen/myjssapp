@@ -6,7 +6,7 @@ const MyComponent = (props) => (
     <b><Text field={props.fields.heading} /></b>
 	<br/>
 	
-	<Text field={props.fields.Description} />
+	Description : <Text field={props.fields.Description} />
 	
   </div>
 );
